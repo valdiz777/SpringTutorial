@@ -11,7 +11,7 @@ public class SpringInFiveStepsScopeApplication {
 
 		final ApplicationContext applicationContext = SpringApplication.run(SpringInFiveStepsScopeApplication.class,
 				args);
-		final PersonDAO person = applicationContext.getBean(PersonDAO.class);
+		final PersonDAO personDao = applicationContext.getBean(PersonDAO.class);
 	}
 
 }
