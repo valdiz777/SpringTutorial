@@ -1,8 +1,8 @@
 package com.zadentech.spring.training.basic;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service
 public class BubbleSortAlgorithm implements ISortAlgorithm {
 
     @Override

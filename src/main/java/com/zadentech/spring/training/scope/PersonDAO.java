@@ -1,12 +1,12 @@
 package com.zadentech.spring.training.scope;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 /**
  * PersonDAO
  */
-@Component
+@Repository
 public class PersonDAO {
 
     @Autowired
