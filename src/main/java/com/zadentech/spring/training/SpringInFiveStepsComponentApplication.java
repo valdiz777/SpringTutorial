@@ -1,4 +1,4 @@
-package com.zadentech.spring.training.scope;
+package com.zadentech.spring.training;
 
 import com.zadentech.spring.training.componentscan.ComponentDAO;
 
